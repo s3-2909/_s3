@@ -13,10 +13,19 @@
         let a = []
         let b = {}
         let c = 'modules'
+        console.log(_s3)
+        console.log( _s3.isArray(a))
+        console.log( _s3.isObject(b))
+        console.log( _s3.isString(c))
 
-        console.log( _s.isArray(a))
-        console.log( _s.isObject(b))
-        console.log( _s.isString(c))
+        /**
+         * ------------------------------------------------------------
+         */
+        let time1 = new Date(),
+        time2 = time1.getTime();
+        console.log(_s3.formatDate());
+        console.log(_s3.formatDate('YYYY-MM-DD h:mm'));
+        // _s3.dateTime(time2)
     </script>
 </body>
 </html>
